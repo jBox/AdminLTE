@@ -2,6 +2,10 @@
   "name": "admin-lte",
   "version": "2.3.12",
   "main": "dist/js/app.min.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "grunt"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/almasaeed2010/AdminLTE.git"
@@ -21,5 +25,8 @@
     "grunt-cssjanus": "^0.2.4",
     "grunt-image": "^1.0.5",
     "grunt-includes": "^0.4.5"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }
